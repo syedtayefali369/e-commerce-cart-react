@@ -16,13 +16,4 @@ const Checkout = ({ cart, getTotalPrice }) => {
   );
 };
 
-const ProductList = () => {
-  return (
-    <div>
-      <h2>Product List</h2>
-      {/* Product items go here */}
-    </div>
-  );
-};
-
-export default ProductList;
+export default Checkout;
